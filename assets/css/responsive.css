@@ -17,6 +17,7 @@
 
   .hero img {
     height: 450px;
+	
   }
 
   /* SITEMAIN
@@ -66,6 +67,9 @@
 
   .hero img {
     height: 480px;
+	border: solid 6px red;
+	margin-right: -90px;
+	
   }
 
   /* SITEMAIN
@@ -130,6 +134,8 @@
   .modal-header {
     height: 350px;
   }
+
+
 }
 
 /* Small Devices, Tablets */
@@ -140,15 +146,11 @@
 
   ================================================== */
  
- 
+
   h4 {
     font-size: 20px;
   }
-  .enea {
-    width: fit-content;
-    height: 500px;
-   border: solid 5px red;
-  }
+
   /* Buttons */
   .btn {
     min-width: 100px;
@@ -321,6 +323,7 @@
   .hero img {
     width: fit-content;
     height: 570px;
+
   }
 
   /* SITEMAIN
@@ -411,6 +414,7 @@
   .site-footer .col-xs-12 {
     text-align: center;
   }
+
 }
 
 
@@ -424,13 +428,15 @@ border: solid 5px red;
   
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 479px-900px) {
+@media only screen and (max-width: 479px) {
   .visible-xxs {
     display: block;
   }
 
   .hero img {
     height: 480px;
+	
+
   }
   /* HERO
 	================================================== */
