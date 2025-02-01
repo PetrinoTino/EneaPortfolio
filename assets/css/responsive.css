@@ -17,7 +17,8 @@
 
   .hero img {
     height: 450px;
-	
+	width: fit-content;
+
   }
 
   /* SITEMAIN
@@ -67,14 +68,11 @@
 
   .hero img {
     height: 480px;
-	border: solid 6px rgb(50, 175, 88);
-	margin-right: -90px;
+    width: fit-content;
+
+	width: 500px;
 	
   }
-  html, body {
-    padding:0;
-    margin:0;
-}
 
   /* SITEMAIN
 	================================================== */
@@ -439,7 +437,8 @@ border: solid 5px red;
 
   .hero img {
     height: 480px;
-	
+	border: solid 5px red;
+    width: fit-content;
 
   }
   /* HERO
