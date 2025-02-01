@@ -421,6 +421,12 @@
 	.visible-xxs {
 		display: block;
 	}
+	.site-logo img {
+		height: 22px;
+		width: 80px;
+		height: 50px;
+	
+	}
 
 	/* HERO
 	================================================== */
