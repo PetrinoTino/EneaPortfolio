@@ -67,7 +67,7 @@
 
   .hero img {
     width: fit-content;
-
+   
 	width: 500px;
 	
   }
@@ -323,7 +323,7 @@
   .hero img {
     width: fit-content;
     
-
+    height: 360px
   }
 
   /* SITEMAIN
@@ -428,16 +428,7 @@ border: solid 5px red;
   
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 479px) {
-  .visible-xxs {
-    display: block;
-  }
 
-  .hero img {
-    height: 550px;
-    width: fit-content;
-
-  }
   /* HERO
 	================================================== */
   .hero .visible-xxs + .btn {
