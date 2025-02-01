@@ -139,10 +139,7 @@
 
 
   ================================================== */
-  .en{
-	border: 4px red solid;
-		margin-right: -50px;
-  }
+ 
  
   h4 {
     font-size: 20px;
@@ -416,8 +413,18 @@
   }
 }
 
+
+/* @media only screen and (max-width: 600px) {
+.img{
+	
+border: solid 5px red;
+	  }
+}
+	 */
+  
+
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 479px-900px) {
   .visible-xxs {
     display: block;
   }
