@@ -66,10 +66,9 @@
   }
 
   .hero img {
-    width: fit-content;
    
 	width: 500px;
-	
+	border: solid 4px red;
   }
 
   /* SITEMAIN
