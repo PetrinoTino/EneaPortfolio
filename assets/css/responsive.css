@@ -17,6 +17,7 @@
 
 	.hero img {
 		height: 500px;
+		
 	}
 
 	/* SITEMAIN
@@ -174,6 +175,7 @@
 		height: 22px;
 		width: 80px;
 		height: 50px;
+		
 	
 	}
 
@@ -320,7 +322,9 @@
 		margin-bottom: 20px;
 	}
 
-	.hero img {
+	.hero img 
+	{
+		width: fit-content;
 		height: 480px;
 		
 
@@ -350,6 +354,7 @@
 
 	.img-lines {
 	    margin: 10px 0 30px;
+	
 	}
 
 	.site-section p {
@@ -421,13 +426,14 @@
 	.visible-xxs {
 		display: block;
 	}
-	.site-logo img {
-		height: 22px;
-		width: 80px;
-		height: 50px;
-	
-	}
 
+	.hero img 
+	{
+		width: fit-content;
+		height: 480px;
+		border: 4px solid red;
+
+	}
 	/* HERO
 	================================================== */
 	.hero .visible-xxs + .btn {
