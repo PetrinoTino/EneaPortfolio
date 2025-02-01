@@ -147,7 +147,7 @@
   .enea {
     width: fit-content;
     height: 500px;
-    text-align: right;
+   border: solid 5px red;
   }
   /* Buttons */
   .btn {
