@@ -2568,7 +2568,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > thead > tr > th:last-child {
     border-right: 0;
   }
- 
+
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tbody > tr:last-child > th,
   .table-responsive > .table-bordered > tfoot > tr:last-child > td,
@@ -3091,10 +3091,10 @@ textarea.input-lg {
     font-size: 12px;
   }
 }
-@media (max-width: 508px){
-.text-right{
+@media (max-width: 508px) {
+  .text-right {
     margin-right: -60px;
-}
+  }
 }
 .btn {
   display: inline-block;
