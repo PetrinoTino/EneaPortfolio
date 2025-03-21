@@ -279,7 +279,11 @@ body {
 }
 /* site-section */
 .site-section {
-  padding-top: 120px;
+  background-image: url('your-image.jpg'); /* Ndërro me rrugën e duhur të fotos */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Opsionale për një efekt më të bukur */
 }
 
 .site-section h2,
