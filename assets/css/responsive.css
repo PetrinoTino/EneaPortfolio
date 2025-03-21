@@ -131,6 +131,13 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.section-counters {
+	  background-attachment: scroll; /* Heq efektin 'fixed' në celular */
+	  padding: 50px 20px; /* Redukton padding për ekrane të vogla */
+	  min-height: 250px;
+	}
+  }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	/* CUSTOM RESETS

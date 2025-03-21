@@ -279,11 +279,7 @@ body {
 }
 /* site-section */
 .site-section {
-  background-image: url('your-image.jpg'); /* Ndërro me rrugën e duhur të fotos */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* Opsionale për një efekt më të bukur */
+  padding-top: 120px;
 }
 
 .site-section h2,
@@ -505,6 +501,7 @@ body {
 .section-counters {
   background: url(../img/kompania.jpg) no-repeat fixed center / cover;
   width: 100%;
+  min-height: 300px;
   padding: 100px 0;
   position: relative;
 }
