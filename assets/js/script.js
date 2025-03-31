@@ -10,7 +10,6 @@ $(function () {
   });
 
 
-  //jQuery for page scrolling feature - requires jQuery Easing plugin
   $(document).on("click", ".page-scroll a", function (event) {
     var $anchor = $(this);
     $("html, body")
@@ -25,7 +24,7 @@ $(function () {
     event.preventDefault();
   });
 
-  // Highlight the top nav as scrolling occurs
+ 
   $("body").scrollspy({
     target: ".site-header",
     offset: 10,
@@ -90,7 +89,7 @@ $(function () {
     smoothScrolling: false,
     mobileDeceleration: 0.004,
     mobileCheck: function () {
-      //hack - forces mobile version to be off
+      
       return false;
     },
   });
