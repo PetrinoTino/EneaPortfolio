@@ -9,7 +9,6 @@ $(function () {
     $(".navbar-toggle, .main-menu").removeClass("act");
   });
 
-
   $(document).on("click", ".page-scroll a", function (event) {
     var $anchor = $(this);
     $("html, body")
@@ -24,7 +23,6 @@ $(function () {
     event.preventDefault();
   });
 
- 
   $("body").scrollspy({
     target: ".site-header",
     offset: 10,
@@ -89,7 +87,6 @@ $(function () {
     smoothScrolling: false,
     mobileDeceleration: 0.004,
     mobileCheck: function () {
-      
       return false;
     },
   });
